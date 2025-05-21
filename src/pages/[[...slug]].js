@@ -34,6 +34,7 @@ function Page(props) {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 {site.favicon && <link rel="icon" href={site.favicon} />}
             </Head>
+            <iframe src="https://app.stammer.ai/en/chatbot/embed/eeea7869-fbe3-450d-a45f-cdbd4ae292d1?position=right" width="100%" height="600" frameborder="0" allow='microphone' ></iframe>
             <PageLayout page={page} site={site} />
         </>
     );
